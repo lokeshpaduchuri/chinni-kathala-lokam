@@ -1,0 +1,8 @@
+{
+  "brand": { "titleTelugu": "చిన్ని కథల లోకం", "titleEnglish": "Chinni Kathala Lokam", "tagline": "తెలుగు కథలు చిన్న హృదయాల కోసం" },
+  "books": [
+    { "id": "chinni-krishnuni-leelalu", "slug": "chinni-krishnuni-leelalu", "titleTelugu": "చిన్ని కృష్ణుని లీలలు", "titleEnglish": "Little Krishna's Adventures", "subtitle": "కస్తూరి రంగ రంగా ఆధారంగా", "description": "చిలిపి నవ్వులు, దివ్యమైన లీలలు, అపారమైన ప్రేమతో నిండిన చిన్ని కృష్ణుని కథలు.", "category": "Devotional", "ageRange": "Ages 4–10", "coverImage": "assets/images/covers/chinni-krishna.jpg", "featured": true, "available": true, "chapterCount": 34 },
+    { "id": "panchatantra", "slug": "panchatantra", "titleTelugu": "పంచతంత్ర కథలు", "titleEnglish": "Tales of the Panchatantra", "subtitle": "తెలివి నేర్పే జంతు కథలు", "description": "స్నేహం, సమయస్ఫూర్తి, మంచి నిర్ణయాల గురించి కాలాతీతమైన కథలు.", "category": "Folklore", "ageRange": "Ages 5–12", "coverImage": "assets/images/covers/panchatantra.jpg", "featured": false, "available": false, "chapterCount": 0 },
+    { "id": "ammamma-kathalu", "slug": "ammamma-kathalu", "titleTelugu": "అమ్మమ్మ కథలు", "titleEnglish": "Grandmother's Stories", "subtitle": "వెన్నెల రాత్రుల కథల జ్ఞాపకాలు", "description": "అమ్మమ్మ ఒడిలో విన్నట్టుగా వెచ్చని కుటుంబ కథలు, మధురమైన జ్ఞాపకాలు.", "category": "Family", "ageRange": "All ages", "coverImage": "assets/images/covers/ammamma.jpg", "featured": false, "available": false, "chapterCount": 0 }
+  ]
+}

@@ -1,0 +1,405 @@
+:root {
+  --cream: #fbf4e4;
+  --paper: #fffaf0;
+  --peacock: #124d65;
+  --peacock-dark: #0b394b;
+  --gold: #c28b2c;
+  --gold-light: #e9c978;
+  --pink: #c86175;
+  --sage: #758c69;
+  --ink: #263b3d;
+  --muted: #6f746e;
+  --shadow: 0 20px 60px rgba(33, 59, 55, .12);
+}
+
+html, body { max-width: 100%; overflow-x: hidden; }
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); background: var(--cream); font-family: 'Libre Baskerville', serif; line-height: 1.65; }
+img, svg, video { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; }
+
+.site-header { width: 100%; min-height: 86px; padding: 10px clamp(24px, 5vw, 80px); display: flex; align-items: center; justify-content: space-between; gap: 18px; background: rgba(255,250,240,.94); border-bottom: 1px solid rgba(194,139,44,.25); position: relative; z-index: 10; }
+.brand { min-width: 0; display: flex; gap: 13px; align-items: center; color: var(--peacock); }
+.brand > span:last-child { min-width: 0; }
+.brand-mark { width: 48px; height: 48px; border-radius: 50% 50% 48% 52%; display: grid; place-items: center; color: var(--paper); font: 700 21px 'Noto Serif Telugu'; background: var(--peacock); border: 3px double var(--gold-light); }
+.brand b { display: block; font: 700 clamp(16px, 2vw, 20px) 'Noto Serif Telugu'; line-height: 1.35; overflow-wrap: anywhere; }
+.brand small { display: block; color: var(--muted); font: 400 11px 'Noto Serif Telugu'; letter-spacing: .02em; }
+.library-link { flex: 0 0 auto; color: var(--peacock); font: 600 14px 'Noto Serif Telugu'; white-space: nowrap; }
+.library-link span { color: var(--gold); margin-right: 7px; }
+
+.hero { width: 100%; min-height: clamp(540px, 66vh, 650px); padding: 62px clamp(24px, 6vw, 80px) 58px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; position: relative; isolation: isolate; overflow: hidden; background: radial-gradient(circle at 50% 38%, rgba(255,255,255,.92), transparent 40%), linear-gradient(135deg, rgba(233,201,120,.13), transparent 35%), var(--cream); }
+.hero::before, .hero::after { content: ''; position: absolute; width: 330px; height: 330px; border-radius: 50%; border: 1px solid rgba(194,139,44,.15); top: 75px; }
+.hero::before, .hero::after { z-index: -1; pointer-events: none; }
+.hero::before { left: -180px; box-shadow: 55px 55px 0 -1px var(--cream), 55px 55px 0 0 rgba(194,139,44,.11); }
+.hero::after { right: -180px; box-shadow: -55px 55px 0 -1px var(--cream), -55px 55px 0 0 rgba(194,139,44,.11); }
+.hero-ornament { color: var(--gold); font-size: 24px; margin-bottom: 10px; }
+.overline { margin: 0 0 14px; color: var(--gold); letter-spacing: .22em; font: 700 11px 'Libre Baskerville'; text-transform: uppercase; }
+.hero h1 { width: 100%; max-width: 1050px; margin: 0; color: var(--peacock); font: 700 clamp(2.4rem, 9vw, 5.5rem)/1.25 'Noto Serif Telugu'; overflow-wrap: break-word; text-wrap: balance; text-shadow: 0 2px white; }
+.hero h2 { width: 100%; max-width: 760px; margin: 0; color: var(--peacock); font: 600 clamp(1rem, 3vw, 1.5rem)/1.35 'Cormorant Garamond'; letter-spacing: .03em; overflow-wrap: break-word; }
+.lotus-rule { display: flex; align-items: center; justify-content: center; gap: 15px; color: var(--pink); font-size: 22px; margin: 16px auto 12px; }
+.lotus-rule span { width: 76px; height: 1px; background: var(--gold-light); }
+.tagline { width: 100%; max-width: 760px; color: var(--pink); font: 600 clamp(1.1rem, 4vw, 1.6rem)/1.55 'Noto Serif Telugu'; margin: 0; text-wrap: balance; }
+.hero-copy { width: 100%; max-width: 590px; margin: 14px auto 22px; color: var(--muted); font: 400 clamp(1.1rem, 4vw, 1.6rem)/1.7 'Noto Serif Telugu'; text-wrap: balance; }
+.primary-button, .secondary-button { display: inline-flex; align-items: center; justify-content: center; gap: 14px; border-radius: 3px; padding: 13px 22px; font: 600 14px 'Noto Serif Telugu'; transition: .2s ease; }
+.primary-button { color: white; background: var(--peacock); box-shadow: 0 8px 24px rgba(18,77,101,.2); }
+.primary-button:hover { background: var(--peacock-dark); transform: translateY(-2px); }
+.secondary-button { color: var(--peacock); border: 1px solid rgba(18,77,101,.3); background: transparent; }
+
+.collection-section { width: 100%; max-width: 1200px; margin: auto; padding: 68px 28px 120px; }
+.section-heading { text-align: center; margin-bottom: 55px; }
+.section-heading h2 { color: var(--peacock); margin: 4px 0; font: 700 clamp(2rem, 7vw, 4rem)/1.35 'Noto Serif Telugu'; }
+.section-heading > p:last-child { color: var(--muted); font: italic 18px 'Cormorant Garamond'; }
+.book-grid { width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px; }
+app-book-card { display: block; min-width: 0; max-width: 100%; }
+app-book-card:first-child { grid-column: 1 / -1; }
+.book-card { min-width: 0; max-width: 100%; display: grid; grid-template-columns: 275px minmax(0, 1fr); gap: 46px; align-items: center; padding: 32px; background: rgba(255,250,240,.72); border: 1px solid rgba(194,139,44,.22); box-shadow: var(--shadow); }
+.book-card.coming-soon { grid-template-columns: 180px 1fr; max-width: 850px; box-shadow: none; margin: auto; width: 100%; background: rgba(255,255,255,.4); }
+.book-card-copy { min-width: 0; }
+.book-card-copy h3 { color: var(--peacock); font: 700 clamp(1.55rem, 3.2vw, 1.95rem)/1.45 'Noto Serif Telugu'; margin: 9px 0 0; overflow-wrap: break-word; }
+.book-card-copy h4 { font: 600 clamp(1rem, 3vw, 1.5rem)/1.35 'Cormorant Garamond'; margin: 0 0 14px; color: var(--peacock); }
+.book-card-copy p { max-width: 620px; color: var(--muted); font: 400 clamp(1rem, 2vw, 1.15rem)/1.8 'Noto Serif Telugu'; }
+.eyebrow { color: var(--gold); font: 700 10px 'Libre Baskerville'; letter-spacing: .13em; text-transform: uppercase; }
+.text-link { display: inline-block; color: var(--peacock); border-bottom: 1px solid var(--gold); padding: 4px 0; font: 600 14px 'Noto Serif Telugu'; }
+.text-link span { margin-left: 10px; }
+.soon-pill { display: inline-block; border-radius: 20px; padding: 5px 12px; background: rgba(117,140,105,.12); color: var(--sage); font: 600 11px 'Noto Serif Telugu'; }
+
+.book-cover { width: min(360px, 100%); max-width: 100%; max-height: 520px; aspect-ratio: 4/5.35; padding: 12px; color: #f9e9b7; background: radial-gradient(circle at 50% 46%, rgba(48,119,126,.55), transparent 27%), linear-gradient(145deg, #0c445b, #0e6172 56%, #082e43); box-shadow: 0 22px 42px rgba(11,57,75,.26); position: relative; overflow: hidden; }
+.book-cover::after { content: ''; position: absolute; inset: 0; opacity: .12; background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 17px 17px; }
+.cover-border { height: 100%; border: 1px solid rgba(233,201,120,.65); outline: 4px double rgba(233,201,120,.34); outline-offset: -9px; padding: 36px 20px 24px; display: flex; flex-direction: column; align-items: center; text-align: center; position: relative; z-index: 1; }
+.peacock { font-size: 47px; line-height: 1; }
+.cover-kicker { margin: 20px 0 14px; font: 500 9px 'Noto Serif Telugu'; letter-spacing: .09em; opacity: .85; }
+.book-cover h2 { color: #fff3c6; margin: 0; font: 700 clamp(25px, 3.2vw, 39px)/1.35 'Noto Serif Telugu'; }
+.book-cover h3 { margin: 8px 0; font: 600 20px/1.1 'Cormorant Garamond'; }
+.book-cover p { margin: 0; color: #f1ce7c; font: 500 11px 'Noto Serif Telugu'; }
+.flourish { color: var(--gold-light); margin: 12px; font-size: 10px; letter-spacing: .4em; }
+.cover-bottom { margin-top: auto; font: 500 9px 'Noto Serif Telugu'; opacity: .7; }
+.book-cover.compact { width: 100%; }
+.book-cover.compact .cover-border { padding: 26px 14px 18px; }
+.book-cover.compact .peacock { font-size: 36px; }
+.book-cover.compact h2 { font-size: 26px; }
+.book-cover.compact h3 { font-size: 17px; }
+.coming-soon .book-cover { filter: saturate(.65); }
+.coming-soon .book-cover.compact h2 { font-size: 18px; }
+.coming-soon .book-cover .cover-kicker { margin: 9px 0; }
+.coming-soon .book-cover .peacock { font-size: 25px; }
+
+.book-hero { min-height: 650px; padding: 70px max(28px, calc((100vw - 1080px)/2)); display: grid; grid-template-columns: 355px 1fr; align-items: center; gap: 80px; background: linear-gradient(90deg, rgba(233,201,120,.13), transparent 45%); }
+.book-details h1 { color: var(--peacock); font: 700 clamp(40px, 5vw, 63px)/1.3 'Noto Serif Telugu'; margin: 12px 0 0; }
+.book-details h2 { color: var(--peacock); font: 600 30px 'Cormorant Garamond'; margin: 0; }
+.book-details .subtitle { color: var(--pink); font: 600 17px 'Noto Serif Telugu'; }
+.book-details > p:last-of-type { color: var(--muted); max-width: 620px; font: 400 16px/1.9 'Noto Serif Telugu'; }
+.action-row { display: flex; gap: 13px; margin-top: 28px; }
+.introduction { max-width: 790px; margin: 30px auto 90px; padding: 55px 65px; text-align: center; background: var(--paper); border: 1px solid rgba(194,139,44,.25); position: relative; }
+.intro-label { color: var(--gold); letter-spacing: .15em; font-size: 10px; }
+.dedication { color: var(--pink); font: 600 20px/1.8 'Noto Serif Telugu'; }
+.small-rule { color: var(--gold); }
+.introduction > p:last-child { font: 400 16px/2 'Noto Serif Telugu'; }
+.contents-section { max-width: 850px; margin: auto; padding: 0 28px 110px; }
+.chapter-list { border-top: 1px solid rgba(194,139,44,.32); }
+.chapter-list a { display: grid; grid-template-columns: 55px 1fr 30px; gap: 20px; align-items: center; padding: 21px 5px; border-bottom: 1px solid rgba(194,139,44,.25); transition: .2s; }
+.chapter-list a:hover { padding-left: 12px; background: rgba(255,255,255,.35); }
+.chapter-number { color: var(--gold); font: 600 18px 'Cormorant Garamond'; }
+.chapter-list b { display: block; color: var(--peacock); font: 600 18px 'Noto Serif Telugu'; }
+.chapter-list small { font: 600 16px 'Cormorant Garamond'; color: var(--muted); }
+.chapter-list i { color: var(--peacock); font-style: normal; }
+
+.reader-toolbar, .print-toolbar { min-height: 54px; padding: 10px max(22px, calc((100vw - 1100px)/2)); display: flex; justify-content: space-between; align-items: center; color: var(--peacock); background: #f4ead2; border-bottom: 1px solid rgba(194,139,44,.25); font: 600 12px 'Noto Serif Telugu'; }
+.reading-stack { padding: 55px 24px 100px; }
+.chapter-page { width: 100%; max-width: 1080px; margin: 0 auto 4rem; padding: 56px 56px 4rem; background: var(--paper); box-shadow: var(--shadow); border: 1px solid rgba(194,139,44,.2); }
+.chapter-page > header { text-align: center; margin-bottom: 38px; }
+.chapter-label { color: var(--gold); font: 700 10px 'Libre Baskerville'; letter-spacing: .16em; }
+.chapter-page h2 { color: var(--peacock); margin: 10px 0 0; font: 700 34px 'Noto Serif Telugu'; }
+.chapter-page h3 { margin: 0; color: var(--peacock); font: 600 21px 'Cormorant Garamond'; }
+.chapter-page,
+.chapter-layout,
+.illustration-panel,
+.illustration-frame { min-width: 0; box-sizing: border-box; }
+.chapter-layout { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 44px; align-items: start; }
+.verse-panel { padding: 28px 30px; border-left: 2px solid var(--gold-light); background: rgba(251,244,228,.65); position: relative; }
+.quote-mark { color: rgba(194,139,44,.24); font: 80px/1 'Cormorant Garamond'; position: absolute; top: 4px; left: 15px; }
+.telugu-verse { position: relative; color: var(--peacock-dark); font: 600 21px/2 'Noto Serif Telugu'; }
+.meaning { margin-top: 28px; padding-top: 22px; border-top: 1px solid rgba(194,139,44,.25); }
+.meaning span { color: var(--pink); font: 600 9px 'Noto Serif Telugu'; letter-spacing: .11em; }
+.meaning p { color: var(--muted); font: 400 13px/1.9 'Libre Baskerville'; }
+.illustration-panel { position: relative; width: 100%; display: flex; align-items: flex-start; justify-content: center; }
+.illustration-frame { position: relative; width: 100%; max-width: 520px; aspect-ratio: 4 / 5; overflow: hidden; display: flex; align-items: center; justify-content: center; padding: 10px; border: 1px solid rgba(194,139,44,.38); background: white; }
+.illustration-frame img { position: static; width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; }
+.illustration-frame img[hidden] { display: none; }
+.illustration-placeholder { position: static; width: 100%; height: 100%; min-height: 0; flex: 0 0 100%; align-self: stretch; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 35px; color: var(--peacock); background: radial-gradient(circle at 50% 45%, rgba(255,255,255,.8), transparent 34%), linear-gradient(145deg, #e9e4ce, #d5e0d4); }
+.illustration-placeholder[hidden] { display: none; }
+.illustration-placeholder .moon { color: var(--gold); font-size: 55px; }
+.illustration-placeholder span { font: 600 18px 'Noto Serif Telugu'; }
+.illustration-placeholder b { font: 600 20px 'Cormorant Garamond'; }
+.illustration-placeholder p { max-width: 340px; color: var(--muted); font: italic 12px/1.7 'Libre Baskerville'; }
+.chapter-nav { position: static; width: 100%; max-width: 1080px; margin: 1.5rem auto 100px; padding: 1.25rem 8px 0; display: grid; grid-template-columns: 1fr auto 1fr; gap: 20px; border-top: 1px solid rgba(194,139,44,.3); color: var(--peacock); font: 600 12px 'Noto Serif Telugu'; }
+.chapter-nav a:last-child { text-align: right; }
+.chapter-nav .contents { color: var(--muted); }
+.blessing { max-width: 800px; margin: 70px auto; padding: 65px; text-align: center; border: 1px solid rgba(194,139,44,.25); background: var(--paper); }
+.blessing > span { font-size: 38px; }
+.blessing p { color: var(--peacock); font: 600 20px/2 'Noto Serif Telugu'; }
+.blessing div { color: var(--gold); letter-spacing: .18em; font-size: 10px; }
+.print-toolbar button { border: 0; padding: 9px 15px; color: white; background: var(--peacock); cursor: pointer; }
+.print-book { max-width: 8.5in; margin: 50px auto; }
+.print-title, .print-intro { min-height: 9.5in; padding: 1in .7in; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: var(--paper); box-shadow: var(--shadow); margin-bottom: 40px; }
+.print-title h1 { color: var(--peacock); font: 700 46px 'Noto Serif Telugu'; margin: 25px 0 0; }
+.print-title h2 { color: var(--peacock); font: 600 30px 'Cormorant Garamond'; margin: 0; }
+.print-title p { color: var(--pink); font: 600 17px 'Noto Serif Telugu'; }
+.print-intro h2 { color: var(--peacock); font: 700 34px 'Noto Serif Telugu'; }
+.print-intro p { font: 400 18px/2.1 'Noto Serif Telugu'; }
+.not-found { min-height: 60vh; display: grid; place-content: center; text-align: center; color: var(--peacock); }
+.site-footer { text-align: center; padding: 55px 24px; color: #e9d8aa; background: var(--peacock-dark); }
+.site-footer span { color: var(--gold-light); font-size: 25px; }
+.site-footer p { margin: 8px 0 0; font: 600 16px 'Noto Serif Telugu'; }
+.site-footer small { opacity: .7; font: italic 15px 'Cormorant Garamond'; }
+
+button, .reader-nav-link { min-height: 44px; touch-action: manipulation; }
+button:focus-visible, .reader-nav-link:focus-visible, .reader-tools button:focus-visible { outline: 3px solid var(--gold-light); outline-offset: 3px; }
+
+.book-card-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 18px; margin-top: 18px; }
+.mobile-book-link { display: none; }
+.reader-cta { min-height: 44px; align-items: center; justify-content: center; padding: 10px 18px; color: white; background: var(--peacock); border-radius: 3px; font: 600 14px 'Noto Serif Telugu'; }
+.tonight-link, .tonight-button { min-height: 52px; display: inline-grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 10px; align-items: center; padding: 8px 16px; color: var(--peacock); background: rgba(233,201,120,.18); border: 1px solid rgba(194,139,44,.4); border-radius: 3px; }
+.tonight-link > span, .tonight-button > span { grid-row: 1 / 3; color: var(--gold); font-size: 22px; }
+.tonight-link b, .tonight-button b { font: 600 13px/1.2 'Noto Serif Telugu'; }
+.tonight-link small, .tonight-button small { color: var(--muted); font: 600 12px/1.2 'Cormorant Garamond'; }
+.tonight-button { color: var(--peacock); }
+
+.reader-page {
+  --reader-bg: #f8efdc;
+  --reader-surface: #fffaf0;
+  --reader-text: #173f4c;
+  --reader-muted: #6f746e;
+  --reader-accent: #c28b2c;
+  min-height: 100vh;
+  padding: 46px clamp(20px, 4vw, 56px) 7rem;
+  color: var(--reader-text);
+  background: var(--reader-bg);
+  transition: background .25s ease, color .25s ease;
+}
+.reader-theme-night {
+  --reader-bg: #071f2a;
+  --reader-surface: #102f3d;
+  --reader-text: #fff4df;
+  --reader-muted: #d8c49a;
+  --reader-accent: #d29a35;
+}
+.reader-header { max-width: 1080px; margin: 0 auto 24px; text-align: center; }
+.reader-header > div:first-child { display: flex; justify-content: space-between; gap: 16px; color: var(--reader-accent); font: 700 10px 'Libre Baskerville'; letter-spacing: .12em; text-transform: uppercase; }
+.reader-header > div:first-child small { font: inherit; }
+.reader-progress { width: 100%; height: 3px; margin: 13px 0 28px; overflow: hidden; background: color-mix(in srgb, var(--reader-muted) 18%, transparent); border-radius: 3px; }
+.reader-progress span { display: block; height: 100%; background: var(--reader-accent); transition: width .25s ease; }
+.reader-title-telugu { max-width: 950px; margin: 0 auto; color: var(--reader-text); font: 700 clamp(2rem, 5vw, 3.25rem)/1.25 'Noto Serif Telugu'; text-wrap: balance; overflow-wrap: anywhere; }
+.reader-header > p { margin: 4px 0 0; color: var(--reader-muted); font: 600 clamp(1rem, 2.4vw, 1.35rem) 'Cormorant Garamond'; }
+.reader-tools { max-width: 1080px; margin: 0 auto 24px; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; }
+.reader-tools button { min-width: 92px; padding: 8px 12px; color: var(--reader-text); background: var(--reader-surface); border: 1px solid color-mix(in srgb, var(--reader-accent) 34%, transparent); border-radius: 24px; cursor: pointer; font: 600 12px 'Libre Baskerville'; }
+.reader-chapter-layout { width: 100%; max-width: 1080px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, .95fr) minmax(320px, 1.05fr); gap: clamp(28px, 4vw, 54px); align-items: start; }
+.reader-copy, .reader-illustration, .reader-verse-card, .reader-story { min-width: 0; box-sizing: border-box; }
+.reader-verse-card, .reader-story { padding: clamp(24px, 3vw, 36px); color: var(--reader-text); background: var(--reader-surface); border: 1px solid color-mix(in srgb, var(--reader-accent) 28%, transparent); }
+.reader-verse-card { border-left: 3px solid var(--reader-accent); }
+.reader-section-label { display: block; margin-bottom: 14px; color: var(--reader-accent); font: 700 10px 'Noto Serif Telugu'; letter-spacing: .1em; }
+.reader-page .telugu-verse { margin: 0; white-space: pre-line; color: var(--reader-text); font: 600 clamp(1.45rem, 3vw, 1.9rem)/1.75 'Noto Serif Telugu'; }
+.reader-page.reader-font-small .telugu-verse { font-size: clamp(1.305rem, 2.7vw, 1.71rem); }
+.reader-page.reader-font-large .telugu-verse { font-size: clamp(1.624rem, 3.36vw, 2.128rem); }
+.reader-story { margin-top: 18px; }
+.reader-story p { margin: 0; color: var(--reader-text); font: 400 clamp(1.05rem, 2vw, 1.25rem)/1.75 'Libre Baskerville'; }
+.reader-page.reader-font-small .reader-story p { font-size: clamp(.945rem, 1.8vw, 1.125rem); }
+.reader-page.reader-font-large .reader-story p { font-size: clamp(1.176rem, 2.24vw, 1.4rem); }
+.reader-bedtime { background: color-mix(in srgb, var(--reader-surface) 92%, var(--reader-accent)); }
+.reader-illustration { position: relative; width: 100%; max-width: 520px; aspect-ratio: 4 / 5; justify-self: center; overflow: hidden; display: flex; align-items: center; justify-content: center; padding: 10px; background: var(--reader-surface); border: 1px solid color-mix(in srgb, var(--reader-accent) 38%, transparent); }
+.reader-illustration img, .chapter-illustration img, .illustration-frame img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; }
+.reader-illustration img[hidden] { display: none; }
+.reader-illustration-placeholder { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 30px; text-align: center; color: var(--reader-text); background: radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--reader-surface) 80%, transparent), transparent 34%), color-mix(in srgb, var(--reader-surface) 90%, var(--reader-muted)); }
+.reader-illustration-placeholder[hidden] { display: none; }
+.reader-illustration-placeholder > span { color: var(--reader-accent); font-size: 52px; }
+.reader-illustration-placeholder b { font: 600 18px 'Noto Serif Telugu'; }
+.reader-illustration-placeholder strong { font: 600 20px 'Cormorant Garamond'; }
+.reader-illustration-placeholder p { max-width: 340px; color: var(--reader-muted); font: italic 12px/1.7 'Libre Baskerville'; }
+.reader-secondary-links { max-width: 1080px; margin: 34px auto 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 22px; }
+.reader-secondary-links a, .reader-secondary-links button { min-height: 44px; display: inline-flex; align-items: center; padding: 7px 4px; color: var(--reader-muted); background: none; border: 0; border-bottom: 1px solid color-mix(in srgb, var(--reader-accent) 45%, transparent); cursor: pointer; font: 600 12px 'Noto Serif Telugu'; }
+.reader-floating-nav { position: fixed; left: 50%; bottom: 1.25rem; transform: translateX(-50%); z-index: 100; display: flex; align-items: center; gap: 1rem; padding: .75rem 1rem; background: rgba(255,248,238,.96); border: 1px solid rgba(190,139,44,.28); border-radius: 999px; box-shadow: 0 12px 30px rgba(15,54,67,.18); backdrop-filter: blur(12px); }
+.reader-theme-night .reader-floating-nav { background: rgba(7,31,42,.96); border-color: rgba(210,154,53,.35); }
+.reader-nav-btn { min-height: 44px; padding: .65rem 1.2rem; border-radius: 999px; border: 0; background: #0f5367; color: #fff8ee; font-weight: 700; cursor: pointer; }
+.reader-nav-btn:disabled { opacity: .45; cursor: not-allowed; }
+.reader-progress-pill { min-width: 4rem; text-align: center; color: #0f5367; font-weight: 700; }
+.reader-theme-night .reader-progress-pill { color: var(--reader-text); }
+.mobile-reader-nav { display: none; }
+
+.chapter-sheet-backdrop { position: fixed; inset: 0; z-index: 80; display: flex; align-items: flex-end; justify-content: center; padding-top: 10vh; background: rgba(3,20,28,.55); }
+.chapter-sheet { width: min(100%, 680px); max-height: 86vh; overflow: hidden; color: var(--reader-text); background: var(--reader-surface); border-radius: 22px 22px 0 0; box-shadow: 0 -20px 60px rgba(0,0,0,.25); }
+.chapter-sheet > header { min-height: 72px; padding: 14px 20px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid color-mix(in srgb, var(--reader-accent) 30%, transparent); }
+.chapter-sheet > header span { color: var(--reader-accent); font: 600 17px 'Noto Serif Telugu'; }
+.chapter-sheet > header h2 { margin: -3px 0 0; color: var(--reader-muted); font: 600 16px 'Cormorant Garamond'; }
+.chapter-sheet > header button { width: 44px; padding: 0; color: var(--reader-text); background: transparent; border: 0; font-size: 28px; cursor: pointer; }
+.chapter-sheet-list { max-height: calc(86vh - 72px); overflow-y: auto; padding: 8px 14px calc(18px + env(safe-area-inset-bottom)); overscroll-behavior: contain; }
+.chapter-sheet-list button { width: 100%; min-height: 58px; display: grid; grid-template-columns: 42px minmax(0, 1fr); align-items: center; gap: 12px; padding: 8px 10px; text-align: left; color: var(--reader-text); background: transparent; border: 0; border-bottom: 1px solid color-mix(in srgb, var(--reader-muted) 14%, transparent); cursor: pointer; }
+.chapter-sheet-list button.active { background: color-mix(in srgb, var(--reader-accent) 15%, transparent); }
+.chapter-sheet-list button span { color: var(--reader-accent); font: 700 14px 'Libre Baskerville'; }
+.chapter-sheet-list button b { overflow: hidden; font: 500 14px/1.5 'Noto Serif Telugu'; text-overflow: ellipsis; white-space: nowrap; }
+
+@media (max-width: 767px) {
+  body:has(app-mobile-reader) .site-header, body:has(app-mobile-reader) .site-footer { display: none; }
+  .desktop-book-link { display: none; }
+  .mobile-book-link { display: inline-flex; }
+  .book-card-actions { justify-content: center; }
+  .tonight-link { order: -1; width: min(100%, 280px); justify-content: center; }
+  .action-row .tonight-button { width: min(100%, 280px); }
+
+  .reader-page { padding: 22px 14px calc(6rem + env(safe-area-inset-bottom)); }
+  .reader-header { margin-bottom: 1rem; }
+  .reader-header > div:first-child { font-size: 9px; }
+  .reader-header > div:first-child small { letter-spacing: .06em; }
+  .reader-progress { margin: 10px 0 20px; }
+  .reader-title-telugu { margin-bottom: .35rem; font-size: clamp(2rem, 8vw, 3rem); line-height: 1.2; }
+  .reader-controls { justify-content: flex-start; flex-wrap: nowrap; gap: .5rem; margin: .75rem auto 1rem; padding: 0; overflow-x: auto; scrollbar-width: none; }
+  .reader-controls::-webkit-scrollbar { display: none; }
+  .reader-controls button { min-width: max-content; min-height: 40px; padding: .55rem .85rem; font-size: .82rem; white-space: nowrap; }
+  .reader-chapter-layout { display: flex; flex-direction: column; gap: 0; }
+  .reader-illustration { order: 1; width: min(100%, 420px, calc(55vh * .8)); max-width: 420px; max-height: 55vh; margin: .25rem auto 1.5rem; }
+  .reader-copy { order: 2; width: 100%; }
+  .reader-verse-card, .reader-story { padding: clamp(1.25rem, 5vw, 2rem); }
+  .reader-page .telugu-verse { font-size: clamp(1.45rem, 5vw, 1.9rem); line-height: 1.75; }
+  .reader-page.reader-font-small .telugu-verse { font-size: clamp(1.305rem, 4.5vw, 1.71rem); }
+  .reader-page.reader-font-large .telugu-verse { font-size: clamp(1.624rem, 5.6vw, 2.128rem); }
+  .reader-story p { font-size: clamp(1.05rem, 4vw, 1.25rem); line-height: 1.75; }
+  .reader-page.reader-font-small .reader-story p { font-size: clamp(.945rem, 3.6vw, 1.125rem); }
+  .reader-page.reader-font-large .reader-story p { font-size: clamp(1.176rem, 4.48vw, 1.4rem); }
+  .reader-illustration-placeholder { padding: 24px 18px; }
+  .reader-secondary-links { margin-top: 22px; gap: 4px 14px; }
+  .reader-floating-nav { display: none; }
+  .mobile-reader-nav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 100; padding: .75rem 1rem calc(.75rem + env(safe-area-inset-bottom)); display: flex; align-items: center; justify-content: space-between; gap: .75rem; background: rgba(255,248,238,.96); backdrop-filter: blur(12px); border-top: 1px solid rgba(190,139,44,.28); box-shadow: 0 -8px 24px rgba(15,54,67,.12); }
+  .reader-theme-night .mobile-reader-nav { color: var(--reader-text); background: rgba(7,31,42,.96); border-top-color: rgba(210,154,53,.35); }
+  .mobile-reader-nav .reader-nav-btn { flex: 1; min-width: 0; min-height: 44px; padding: .6rem .75rem; border-radius: .85rem; font: 700 12px 'Libre Baskerville'; }
+  .reader-theme-night .mobile-reader-nav .reader-nav-btn { background: #17485c; }
+  .mobile-reader-nav .reader-progress-pill { min-width: 4rem; }
+}
+
+@media (max-width: 390px) {
+  .reader-page { padding-inline: 10px; }
+  .reader-controls button { font-size: .78rem; }
+  .mobile-reader-nav { padding-inline: 10px; gap: 7px; }
+  .mobile-reader-nav .reader-nav-btn { padding-inline: 8px; }
+  .mobile-reader-nav .reader-progress-pill { min-width: 3.5rem; }
+}
+
+@media (max-width: 900px) {
+  .site-header { min-height: 76px; padding: 9px 24px; }
+  .brand-mark { width: 42px; height: 42px; flex: 0 0 42px; font-size: 18px; }
+  .brand small { font-size: 9px; }
+  .library-link { font-size: 12px; }
+
+  .hero { min-height: 570px; padding: 76px 32px 70px; }
+  .hero::before, .hero::after { width: 240px; height: 240px; top: 80px; opacity: .65; }
+  .hero::before { left: -155px; box-shadow: 38px 38px 0 -1px var(--cream), 38px 38px 0 0 rgba(194,139,44,.09); }
+  .hero::after { right: -155px; box-shadow: -38px 38px 0 -1px var(--cream), -38px 38px 0 0 rgba(194,139,44,.09); }
+  .hero-copy { font-size: clamp(1rem, 2.6vw, 1.25rem); }
+
+  .collection-section { padding: 70px 24px 85px; }
+  .section-heading { margin-bottom: 38px; }
+  .book-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+  app-book-card:first-child { grid-column: 1 / -1; }
+  .book-card:not(:first-child), .book-card.coming-soon { grid-template-columns: 1fr; max-width: none; padding: 22px; gap: 22px; align-content: start; }
+  .book-card:not(:first-child) .book-cover { width: min(210px, 78%); max-height: 290px; margin: 0 auto; }
+  .book-card:not(:first-child) .book-card-copy { text-align: center; }
+
+  .book-hero { grid-template-columns: 280px minmax(0, 1fr); gap: 42px; padding: 55px 32px 65px; }
+  .book-details h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); }
+  .chapter-page { padding: 42px 32px 4rem; }
+  .chapter-layout { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .illustration-frame { width: min(100%, 520px); }
+}
+
+@media (max-width: 640px) {
+  .site-header { min-height: 66px; padding: 8px 16px; gap: 10px; }
+  .brand { gap: 9px; }
+  .brand-mark { width: 38px; height: 38px; flex-basis: 38px; border-width: 2px; font-size: 16px; }
+  .brand b { font-size: clamp(14px, 4.2vw, 17px); line-height: 1.3; }
+  .brand small, .library-link span { display: none; }
+  .library-link { max-width: 66px; font-size: 0; }
+  .library-link::after { content: 'కథలు'; font: 600 12px 'Noto Serif Telugu'; }
+
+  .hero { min-height: 510px; padding: 58px 18px 52px; }
+  .hero::before, .hero::after { width: 170px; height: 170px; top: 105px; opacity: .35; }
+  .hero::before { left: -125px; box-shadow: 25px 25px 0 -1px var(--cream), 25px 25px 0 0 rgba(194,139,44,.08); }
+  .hero::after { right: -125px; box-shadow: -25px 25px 0 -1px var(--cream), -25px 25px 0 0 rgba(194,139,44,.08); }
+  .hero-ornament { margin-bottom: 12px; font-size: 18px; }
+  .overline { max-width: 100%; font-size: 9px; letter-spacing: .14em; overflow-wrap: break-word; }
+  .hero h1 { font-size: clamp(2.4rem, 9vw, 5.5rem); line-height: 1.3; }
+  .hero h2 { margin-top: 2px; }
+  .lotus-rule { margin: 14px auto 12px; gap: 10px; }
+  .lotus-rule span { width: 45px; }
+  .hero-copy { margin: 14px auto 22px; font-size: clamp(1rem, 3.8vw, 1.15rem); line-height: 1.75; }
+  .hero .primary-button { width: min(100%, 280px); padding: 11px 18px; }
+
+  .collection-section { padding: 54px 16px 64px; }
+  .section-heading { margin-bottom: 30px; }
+  .section-heading > p:last-child { font-size: 16px; }
+  .book-grid { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  app-book-card:first-child { grid-column: auto; }
+  .book-card, .book-card.coming-soon, .book-card:not(:first-child) { grid-template-columns: 1fr; width: 100%; max-width: 430px; margin: 0 auto; padding: 20px; gap: 22px; }
+  .book-card .book-cover, .book-card:not(:first-child) .book-cover, .coming-soon .book-cover { width: min(230px, 78vw); max-height: 315px; margin: 0 auto; }
+  .book-card-copy { text-align: center; }
+  .book-card-copy p { margin-top: 8px; margin-bottom: 14px; }
+
+  .book-hero { grid-template-columns: 1fr; gap: 36px; padding: 42px 20px 58px; }
+  .book-hero .book-cover { margin: auto; max-width: 260px; max-height: 350px; }
+  .book-details { text-align: center; }
+  .action-row { flex-direction: column; align-items: center; }
+  .action-row a { width: min(100%, 280px); }
+  .introduction { margin: 18px 16px 54px; padding: 34px 22px; }
+  .contents-section { padding: 0 16px 72px; }
+  .chapter-list a { grid-template-columns: 38px minmax(0, 1fr) 20px; gap: 12px; }
+
+  .reading-stack { padding: 28px 12px 60px; }
+  .chapter-page { width: 100%; margin-bottom: 2rem; padding: 30px 18px 2rem; }
+  .chapter-page h2 { font-size: clamp(1.75rem, 7vw, 2.2rem); }
+  .chapter-page h3 { font-size: clamp(1rem, 3vw, 1.5rem); }
+  .chapter-layout { grid-template-columns: 1fr; gap: 22px; }
+  .verse-panel { padding: 24px 20px; }
+  .telugu-verse { font-size: clamp(1.1rem, 4vw, 1.6rem); }
+  .illustration-frame { width: 100%; max-width: min(520px, 100%); min-height: 0; }
+  .illustration-placeholder { min-height: 0; padding: 24px 18px; }
+  .chapter-nav { margin: 1rem auto 60px; padding: 1rem 14px 0; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .chapter-nav .contents { display: none; }
+  .reader-toolbar span, .print-toolbar span { display: none; }
+  .blessing { margin: 30px 14px; padding: 40px 20px; }
+}
+
+@media (max-width: 420px) {
+  .site-header { padding-inline: 12px; }
+  .brand b { font-size: 14px; }
+  .library-link { max-width: 52px; }
+
+  .hero { min-height: 470px; padding: 46px 14px 42px; }
+  .hero::before, .hero::after { width: 130px; height: 130px; top: 125px; opacity: .25; }
+  .hero::before { left: -102px; box-shadow: 18px 18px 0 -1px var(--cream), 18px 18px 0 0 rgba(194,139,44,.07); }
+  .hero::after { right: -102px; box-shadow: -18px 18px 0 -1px var(--cream), -18px 18px 0 0 rgba(194,139,44,.07); }
+  .hero h1 { font-size: clamp(2.4rem, 9vw, 5.5rem); }
+  .tagline { font-size: clamp(1.05rem, 4vw, 1.25rem); }
+  .hero-copy { font-size: 1rem; }
+
+  .collection-section { padding: 44px 12px 54px; }
+  .book-card, .book-card.coming-soon, .book-card:not(:first-child) { padding: 16px; gap: 18px; }
+  .book-card .book-cover, .book-card:not(:first-child) .book-cover, .coming-soon .book-cover { width: min(205px, 72vw); max-height: 280px; }
+  .book-cover.compact .cover-border { padding: 20px 10px 14px; }
+  .book-cover.compact h2 { font-size: 21px; }
+  .book-card-copy h3 { font-size: 1.45rem; }
+  .book-card-copy p { font-size: 1rem; line-height: 1.7; }
+  .chapter-page { padding-inline: 14px; }
+}
+
+@page { size: Letter portrait; margin: .45in; }
+@media print {
+  body { background: white; color: #222; }
+  .no-print, .site-header, .site-footer { display: none !important; }
+  .print-book { max-width: none; margin: 0; }
+  .print-title, .print-intro, .print-book .chapter-page, .print-book .blessing { width: 100%; min-height: 9.5in; margin: 0; padding: .45in; box-shadow: none; border: 0; break-after: page; page-break-after: always; }
+  .print-book .chapter-page { display: flex; flex-direction: column; justify-content: center; }
+  .print-book .chapter-page > header { margin-bottom: 22px; }
+  .print-book .chapter-layout { grid-template-columns: .9fr 1.1fr; gap: .25in; }
+  .print-book .illustration-frame { min-height: 5.4in; }
+  .print-book .illustration-placeholder { min-height: 5.15in; }
+  .telugu-verse { break-inside: avoid; page-break-inside: avoid; }
+  .print-book .blessing { break-after: auto; page-break-after: auto; display: flex; flex-direction: column; justify-content: center; }
+}

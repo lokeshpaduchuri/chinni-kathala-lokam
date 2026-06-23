@@ -1,0 +1,12 @@
+{
+  "name": "చిన్ని కథల లోకం",
+  "short_name": "చిన్ని కథలు",
+  "description": "తెలుగు కథలు చిన్న హృదయాల కోసం",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf4e4",
+  "theme_color": "#124d65",
+  "icons": [
+    { "src": "icons/app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

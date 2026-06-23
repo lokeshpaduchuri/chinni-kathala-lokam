@@ -1,0 +1,351 @@
+{
+  "id": "chinni-krishnuni-leelalu",
+  "titleTelugu": "చిన్ని కృష్ణుని లీలలు",
+  "titleEnglish": "Little Krishna's Adventures",
+  "subtitle": "కస్తూరి రంగ రంగా ఆధారంగా",
+  "dedication": "కథలు వింటూ కళ్ళు మెరిసే ప్రతి చిన్నారి కోసం",
+  "introduction": "‘కస్తూరి రంగ రంగా’ అనే మధురమైన తెలుగు జానపద గీతం స్ఫూర్తితో రూపుదిద్దుకున్న ఈ కథామాలిక, బాల కృష్ణుని దివ్య జననం నుంచి ఆయన చిలిపి బాల్యం వరకు చిన్నారులకు సులభంగా, ఆప్యాయంగా పరిచయం చేస్తుంది.",
+  "closingBlessing": "చిన్ని కృష్ణుని చిరునవ్వు మీ ఇంట ఆనందాన్ని నింపుగాక. ఆయన వేణుగానం మీ హృదయానికి శాంతిని అందించుగాక.",
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "chapterTitle": "Verse 1",
+      "chapterTitleTelugu": "కస్తూరి రంగ రంగా! నాయన్న కావేటి రంగ రంగా!",
+      "teluguVerse": "కస్తూరి రంగ రంగా! నాయన్న కావేటి రంగ రంగా!\nశ్రీరంగ రంగ రంగా! నినుబాసి నేనెట్లు మరుచుందురా!",
+      "meaning": "This verse is a loving call to Krishna. He is compared to kasturi (a sweet, precious fragrance), symbolizing purity and beauty. The devotee calls Krishna “my father” and “my protector,” expressing deep closeness and affection. The verse ends with a heartfelt question—how can one ever forget Krishna after experiencing such love and nearness?",
+      "bedtimeVersion": "This verse is a sweet call to Krishna. The singer says Krishna is as lovely as a gentle, good smell, and feels like a caring protector. It ends with a simple loving thought: “How could I ever forget you?”",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-1.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 2,
+      "chapterTitle": "Verse 2",
+      "chapterTitleTelugu": "కంసున్ని సంహరింప, సద్గురుడు అవతారమేత్తేనపుడు,",
+      "teluguVerse": "కంసున్ని సంహరింప, సద్గురుడు అవతారమేత్తేనపుడు,\nదేవకీ గర్బముననూ, క్రిష్ణావతరమై జన్మించెను.\nఏడురాత్రులు  చేరిచీ, ఒక రాత్రి ఏక రాత్రిగ చేసేనూ,\nఆదివారము పూటనూ, అష్టమి దినమందు జన్మించెను!\nతలతోనూ జన్మమైతే, తనకు బహు మోసంబు వచ్చుననుచూ,\nఎదురు కాళ్ళను బుట్టెనూ, ఏడుగురు దాదులను జాంపె నపుడు!",
+      "meaning": "This verse explains why Krishna was born. To destroy the cruel king Kamsa and protect righteousness, the divine Lord took birth as Krishna in Devaki’s womb. His birth night was extraordinary, described as many nights merging into one, and it happened on the sacred Ashtami day. The verse also explains Kamsa’s fear of a prophecy, and because of that fear, he killed the seven children born before Krishna.",
+      "bedtimeVersion": "This verse says Krishna was born to stop Kamsa and protect goodness. He was born to Devaki on the holy Ashtami night. It also says Kamsa was very scared because of a prophecy, and he hurt the babies born before Krishna.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-2.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 3,
+      "chapterTitle": "Verse 3",
+      "chapterTitleTelugu": "నెత్తురుతో ఉండి అపుడూ, ఆ బాల కావుకావున ఏడ్చేనూ,",
+      "teluguVerse": "నెత్తురుతో ఉండి అపుడూ, ఆ బాల కావుకావున ఏడ్చేనూ,\nనన్నేల ఎత్తుకొనవే, ఓ తల్లి దేవకీ వందనంబు.\nఒళ్లెల్ల హీనంబుతో, ఈరీతినున్నాను కన్నతండ్రి,\nనిన్నెట్లు ఎత్తుకోoదూ, నీ వొక్క నిమిషంబు తాళరన్నా,",
+      "meaning": "This verse describes a tender moment just after birth. The newborn baby Krishna is still covered in blood and cries softly. The baby’s words plead with Devaki to lift him, while Devaki is weak and distressed, unable to act immediately. The verse holds both emotions together—an infant’s need for comfort and a mother’s helpless sorrow in a frightening situation.",
+      "bedtimeVersion": "This verse shows baby Krishna crying like any newborn. He wants his mother to lift him and hold him close. Devaki is weak and worried, but her heart is full of love for her baby.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-3.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 4,
+      "chapterTitle": "Verse 4",
+      "chapterTitleTelugu": "గంగనూ ప్రార్ధించెను, జలనిధుల గంగ తానుప్పొంగెను,",
+      "teluguVerse": "గంగనూ ప్రార్ధించెను, జలనిధుల గంగ తానుప్పొంగెను,\nగంగానదిలో నప్పుడు, దేవకీ జలకంబులాడేనపుడు!\nఇకనైనా ఎత్తుకొనవే, నా తల్లి దేవకీ వందనంబు,\nకాని బాలుని వలెనూ, నన్నిట్లు ఎడబాసి ఉండదగున?",
+      "meaning": "This verse shows Devaki praying to the Ganga, and the waters are described as rising in response. While Devaki is in the river bathing, the baby again pleads to be lifted. The verse questions how a mother can leave her child alone even briefly, highlighting the emotional pull between Devaki’s circumstances and the baby’s longing to be held.",
+      "bedtimeVersion": "This verse says Devaki prays to the Ganga, and the river is described as rising. The baby again asks his mother to pick him up. It shows how a baby wants to be held, and how a mother’s heart feels pulled to her child.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-4.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 5,
+      "chapterTitle": "Verse 5",
+      "chapterTitleTelugu": "నీ పుణ్యమాయే కొడకా, ఇంకొక్క నిమిషంబు తాళమనుచూ,",
+      "teluguVerse": "నీ పుణ్యమాయే కొడకా, ఇంకొక్క నిమిషంబు తాళమనుచూ,\nకామదేనువు నపుడు, దేవకీ కడగి ప్రార్ధించగాను!\nపాలవర్షము కురిసెనూ, అప్పుడా బాలుపై చల్లగాను,\nతడివస్త్రములు విదిచెనూ, దేవకీ పొడి వస్త్రములు కట్టెను!",
+      "meaning": "In this verse, Devaki asks her blessed child to wait one more moment. She prays, and a soothing “rain of milk” is described as falling on the baby. Devaki removes wet cloth and wraps Krishna in dry clothes. The verse brings a moment of calm care—comfort and protection returning in a tense time.",
+      "bedtimeVersion": "This verse says Devaki tells her baby to wait just one minute. She prays, and a cool ‘milk rain’ is described as helping the baby. Then she wraps him in dry clothes, taking care of him gently.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-5.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 6,
+      "chapterTitle": "Verse 6",
+      "chapterTitleTelugu": "పోత్తిల్లమీద నపుడు, బాలుండు చక్కగా పవళించేనూ,",
+      "teluguVerse": "పోత్తిల్లమీద నపుడు, బాలుండు చక్కగా పవళించేనూ,\nతన రెండు హస్తములతో, దేవకీ తనయున్ని ఎత్తుకోనేనూ!\nఅడ్డాలపై వేసుక, ఆ బాల నందచందము జూచెనూ,\nవసుదేవ పుత్రుడమ్మ, ఈ బిడ్డ వైకుంట వాసుడమ్మ!",
+      "meaning": "This verse describes baby Krishna sleeping peacefully on a cradle. Devaki lifts him gently with both hands and gazes at his divine charm. She recognizes him as Vasudeva’s son and also as the one who belongs to Vaikuntha. The verse blends a mother’s love with spiritual realization.",
+      "bedtimeVersion": "This verse shows baby Krishna sleeping peacefully. Devaki lifts him softly and looks at his sweet face. She feels he is not just her baby—he is also a divine child from Vaikuntha.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-6.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 7,
+      "chapterTitle": "Verse 7",
+      "chapterTitleTelugu": "నవనీత చోరుడమ్మ, ఈ బిడ్డ నందగోపాలుడమ్మ!",
+      "teluguVerse": "నవనీత చోరుడమ్మ, ఈ బిడ్డ నందగోపాలుడమ్మ!\nసితపత్ర నేత్రుడమ్మ, ఈ బిడ్డ శ్రీ రామచంద్రుడమ్మ!\nశిరమున చింతామణి, నా తండ్రి నాలుకకు నక్షత్రము,\nపండ్లనూ వరుసవేది, భుజమున శంకు చక్రములు గలవూ!",
+      "meaning": "This verse praises Krishna with beloved divine names and qualities. He is called the butter thief and Nandagopala, and his eyes are described as pure and radiant. Sacred signs and ornaments are described on his body, symbolizing beauty and divine power. The verse is filled with wonder and devotion.",
+      "bedtimeVersion": "This verse praises Krishna with loving names. It says he is playful, beautiful, and full of divine signs. Everyone looks at him with wonder and devotion.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-7.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 8,
+      "chapterTitle": "Verse 8",
+      "chapterTitleTelugu": "వీపున వింజామరం, నా తండ్రి బొడ్డున పారిజాతం,",
+      "teluguVerse": "వీపున వింజామరం, నా తండ్రి బొడ్డున పారిజాతం,\nఅరికాళ్ళ పద్మములనూ, అన్నియు అమరేసు కన్నతండ్రి!\nనీ రూపు, నీ చక్కనా, ఆ బ్రహ్మ ఎన్నాళ్ళు వ్ర్రాసి తండ్రి,\nఅన్నేకారి కడుపునా, ఓ అయ్యా ఏల జన్మిస్తివయ్య",
+      "meaning": "This verse continues describing Krishna’s beauty with poetic divine details, including lotus marks and heavenly imagery. It wonders how long even the creator must have worked to shape such a flawless form, and asks why such a divine being chooses to be born among mortals. The verse expresses awe and humility.",
+      "bedtimeVersion": "This verse describes Krishna’s beauty and asks in awe how perfectly he is made. It wonders why such a great divine one comes to be born among people.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-8.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 9,
+      "chapterTitle": "Verse 9",
+      "chapterTitleTelugu": "మాయన్న కంసరాజు, ఇప్పుడు వచ్చేవేళాయేరన్నా,",
+      "teluguVerse": "మాయన్న కంసరాజు, ఇప్పుడు వచ్చేవేళాయేరన్నా,\nనిన్ను నే నెత్తుకొని, ఏ త్రోవ నే  పోదుర కన్నతండ్రి!\nఆ చక్కదనము చూచి, దేవకీ శోకింపసాగే నప్పుడు,\nతల్లి శోకము మాన్పుగా, మాధవుడు తంత్ర మొక్కటి చేసేను!",
+      "meaning": "This verse returns to danger. Devaki fears Kamsa may arrive and wonders which path to take to protect her child. Seeing Krishna’s beauty deepens her sorrow. Krishna then uses a divine plan to calm his mother’s heart, showing compassion and awareness.",
+      "bedtimeVersion": "This verse shows Devaki getting scared that Kamsa might come. She wonders how to protect her baby. Krishna does something to calm his mother’s heart.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-9.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 10,
+      "chapterTitle": "Verse 10",
+      "chapterTitleTelugu": "పెద్ద బొబ్బలు పెట్టుచూ, మాధవుడు గట్టిగ ఎడ్వసాగే,",
+      "teluguVerse": "పెద్ద బొబ్బలు పెట్టుచూ, మాధవుడు గట్టిగ ఎడ్వసాగే,\nశోకంబు చాలించుయూ, దేవకీ బాలుణ్ణి ఎత్తుకొనేను\nనాయన్న ఊరుకోరా, నా తండ్రి గోపాలా పవళించరా!\nఅల్లడుగో బూచివాడు, నా తండ్రి వస్తాడు పవళించరా!",
+      "meaning": "This verse describes baby Krishna crying loudly. Devaki, filled with sorrow, quickly lifts him and soothes him, asking him to calm down and sleep. She reassures him tenderly not to fear. It is a soft scene of mother and child amid danger.",
+      "bedtimeVersion": "This verse shows baby Krishna crying, and Devaki quickly holds him. She rocks him gently and asks him to sleep, telling him not to be afraid.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-10.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 11,
+      "chapterTitle": "Verse 11",
+      "chapterTitleTelugu": "బూచులను మర్ధించనూ, నళినాక్షి బుద్దిమంతుడను అమ్మా,",
+      "teluguVerse": "బూచులను మర్ధించనూ, నళినాక్షి బుద్దిమంతుడను అమ్మా,\nబూచేమి జేసునమ్మ, నా తల్లి జోగి నన్నేరుగనమ్మ!\nనీ పుణ్యమాయే కొడకా, నీ వొక్క, నిమిషంబు తాళమనుచూ,\nఅల్లడుగో జోగివాడు, నా తండ్రి వస్తాడు పవళించరా!",
+      "meaning": "In this verse, Krishna reassures Devaki that those who try to frighten her have no power over him and do not know who he truly is. Devaki asks her blessed child to wait a moment and rest. The verse shows baby Krishna calming his mother while she continues to soothe him.",
+      "bedtimeVersion": "This verse shows Krishna telling Devaki not to fear. He says the scary ones don’t know who he is. Devaki softly asks him to wait and rest.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-11.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 12,
+      "chapterTitle": "Verse 12",
+      "chapterTitleTelugu": "జోగి మందుల సంచులూ, ఏ వేళ నా చంక నుండగానూ,",
+      "teluguVerse": "జోగి మందుల సంచులూ, ఏ వేళ నా చంక నుండగానూ,\nజోగేమి చేసునమ్మ, నా తల్లి జోగి నన్నేరుగనమ్మ!\nనీ పుణ్యమాయే కొడకా, నీ వొక్క నిమిషంబు తాళమనుచూ,\nఅల్లదుగో పామువచ్చే, నా తండ్రి గోపాల పవళించరా!",
+      "meaning": "This verse continues the reassurance. Krishna says even if someone comes with medicine bags or strange things, they cannot harm him. Devaki comforts him and asks him to sleep peacefully without fear.",
+      "bedtimeVersion": "This verse says even if strange people come, they cannot harm Krishna. Devaki comforts him and tells him to sleep peacefully.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-12.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 13,
+      "chapterTitle": "Verse 13",
+      "chapterTitleTelugu": "పాముల్ల రాజె అయినా, శేషుండు పాన్పుపై  యుండగానూ,",
+      "teluguVerse": "పాముల్ల రాజె అయినా, శేషుండు పాన్పుపై  యుండగానూ,\nపామేమి జేసునమ్మ?, నళినాక్షి భయము నీకేలనమ్మ!\nనీలమేగపుచాయలు, నీమేను నీలాల హారములనూ,\nసద్గురుడు వ్ర్రాసినాడు, నా తండ్రి నీ రూపు, నా చక్కనా!",
+      "meaning": "This verse explains Krishna’s divine protection and beauty. Shesha, king of serpents, serves as Krishna’s resting place, showing no snake or danger can harm him. Krishna asks Devaki why she fears. His form is described as dark and beautiful like rain clouds, carefully formed and perfect.",
+      "bedtimeVersion": "This verse says Krishna is protected—even Shesha serves him. Krishna tells Devaki, “Why fear?” and his body is described as beautiful like dark rain clouds.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-13.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 14,
+      "chapterTitle": "Verse 14",
+      "chapterTitleTelugu": "నిన్ను నేనెత్తుకొని, ఏ త్రోవ పోదురా? కన్నతండ్రి!",
+      "teluguVerse": "నిన్ను నేనెత్తుకొని, ఏ త్రోవ పోదురా? కన్నతండ్రి!\nనాకేమి భయము లేదే, నా తల్లి నాకేమి కొదువలేదే!\nమా మామ కంసకుండు, ఈ వేళ నన్ను చంపగావచ్చినా,\nమా మామ నా చేతనూ, మరణమై పోయేటి నిజము సుమ్మా!",
+      "meaning": "In this verse, Krishna speaks with calm confidence. He assures Devaki he has no fear and nothing is lacking. He states clearly that even if Kamsa comes to harm him, Kamsa’s end will come through Krishna himself.",
+      "bedtimeVersion": "This verse shows Krishna speaking bravely. He says he is not afraid, and that Kamsa cannot win against truth.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-14.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 15,
+      "chapterTitle": "Verse 15",
+      "chapterTitleTelugu": "వచ్చూ వేలయేననుచూ, నా తల్లి వసుదేవ పిలువనంపు,",
+      "teluguVerse": "వచ్చూ వేలయేననుచూ, నా తల్లి వసుదేవ పిలువనంపు,\nగోపెమ్మ బిడ్డ నిపుడు, శ్రీగ్రముగా తెచ్చి నీవుంచావమ్మా!\nఅంతలో వసుదేవుడు, బాలుణ్ణి తలమీద ఎత్తుకొనేను,\nరేపల్లె వాడలేను, గోపెమ్మ ఇంటనూ వచ్చేనపుడు!",
+      "meaning": "This verse describes urgency. Devaki asks Vasudeva to come quickly and take the baby to safety with the cowherd family. Vasudeva lifts baby Krishna onto his head and travels through the night to Repalle, acting swiftly and bravely.",
+      "bedtimeVersion": "This verse shows Devaki asking Vasudeva to come quickly. Vasudeva lifts Krishna and carries him through the night to safety in Repalle.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-15.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 16,
+      "chapterTitle": "Verse 16",
+      "chapterTitleTelugu": "గోపెమ్మ పుత్రి నపుడు, వసుదేవు భుజముపై నేక్కించుకు,",
+      "teluguVerse": "గోపెమ్మ పుత్రి నపుడు, వసుదేవు భుజముపై నేక్కించుకు,\nఅతి త్వరితముగ వచ్చెనూ, దేవకీ హస్తములనుంచే నపుడు!\nదేవకీ తనయుడపుడు, పుట్టేనని కంసునకు కబురాయెనూ!\nజల్లుమని గుండె లదర, కంసుండు పీటంబు దుమికె నపుడు!",
+      "meaning": "This verse describes Vasudeva bringing the newborn baby girl back and placing her into Devaki’s hands. News reaches Kamsa that a child is born to Devaki, and fear and anger shake him as he leaps from his throne.",
+      "bedtimeVersion": "This verse says Vasudeva brings the baby girl back to Devaki. Then Kamsa hears the news and jumps up in fear.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-16.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 17,
+      "chapterTitle": "Verse 17",
+      "chapterTitleTelugu": "జాతకంబులు చూచెను, గండంబు తగిలెనని కంసుండు,",
+      "teluguVerse": "జాతకంబులు చూచెను, గండంబు తగిలెనని కంసుండు,\nచంద్రాయుదము దూసుక, శ్రీగ్రముగా దేవకీ వద్ద కొచ్చే!\nతెమ్మని సుతునడిగెను, దేవకీ అన్నది అన్నతోను,\nమగవాడు కాదురన్న, ఈ పిల్ల ఆడపిల్ల నమ్మరా!",
+      "meaning": "Kamsa believes danger is certain and rushes to Devaki with a weapon. He demands the child. Devaki tells him the baby is a girl. The verse shows Devaki’s courage and Kamsa’s violent fear.",
+      "bedtimeVersion": "This verse says Kamsa rushes with a weapon and demands the baby. Devaki tells him it is a girl.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-17.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 18,
+      "chapterTitle": "Verse 18",
+      "chapterTitleTelugu": "ఉపవాసములు నోములు, నోచి ఈ పుత్రికను గంటినన్న,",
+      "teluguVerse": "ఉపవాసములు నోములు, నోచి ఈ పుత్రికను గంటినన్న,\nపుత్రి దానము చేయరా, నాయన్నా! పున్యవంతుడవురన్నా!\nదేవాది దేవులైన, బ్రహ్మ రుద్రాదులను పూజచేసి,\nపూజ ఫలముల చేతను, వారి క్రుపవల్ల పుత్రికను గంటి!",
+      "meaning": "Devaki pleads, explaining she performed fasts and vows to receive the child. She asks Kamsa to accept the baby as a charitable gift and gain merit. She says the child is born through divine blessings earned by worship.",
+      "bedtimeVersion": "This verse shows Devaki pleading. She says she prayed and got this child as a blessing, and asks Kamsa to show mercy.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-18.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 19,
+      "chapterTitle": "Verse 19",
+      "chapterTitleTelugu": "నీ పుణ్యమాయే రన్నా!, నీవు పుత్రికను దయచేయుమన్నా,",
+      "teluguVerse": "నీ పుణ్యమాయే రన్నా!, నీవు పుత్రికను దయచేయుమన్నా,\nనిర్దయాత్మకుడవగుచు, నీ విట్లు చేయుట తగుదురన్నా!\nప్రేమతో చెల్లెలపుడు, అన్నను చేబట్టి బ్రతిమాలేను,\nగంగాది నదులయందు, పుత్ర దానము చేయమని వేడేనూ!",
+      "meaning": "Devaki continues pleading for mercy and asks Kamsa not to act cruelly. As his sister, she holds him and begs with love. She promises charity in sacred rivers, hoping compassion will soften him.",
+      "bedtimeVersion": "This verse shows Devaki holding her brother’s hands and begging him with love. She asks him not to be cruel and promises good deeds.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-19.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 20,
+      "chapterTitle": "Verse 20",
+      "chapterTitleTelugu": "కాదు కాదని కంసుడు, దేవకీ పుత్రికను అడిగేనపుడు,",
+      "teluguVerse": "కాదు కాదని కంసుడు, దేవకీ పుత్రికను అడిగేనపుడు,\nఅడ్డాలపై బాలను, పుచ్చుకొని ఎగరేసి నరకబోయే!\nఅంబరమునకు ఎగురగ, వేయునపుడా బాల కంసుజూచి,\nనన్నేల జంపెదవురా?, నీ యబ్బ రేపల్లె వాడలోను?",
+      "meaning": "Ignoring Devaki, Kamsa grabs the baby and throws her upward intending to kill her. The baby speaks from above, asking why he tries to kill her when the one destined to end him is growing elsewhere in Repalle.",
+      "bedtimeVersion": "This verse says Kamsa tries to harm the baby, but the baby speaks and tells him the real threat is elsewhere in Repalle.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-20.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 21,
+      "chapterTitle": "Verse 21",
+      "chapterTitleTelugu": "పెరుగుతున్నాడు వినరా? క్రిష్ణవతరమై జన్మించేనూ,",
+      "teluguVerse": "పెరుగుతున్నాడు వినరా? క్రిష్ణవతరమై జన్మించేనూ,\nనిజముగా దోచేనపుడు, కంసుండు ఏతెంచి పవళించెనూ!\nరేపల్లె వాడలోను, పెరుగుతున్నాడని దిగులోందేను! నీ యబ్బ,\nనీ తాతరా, కంసుడా! కృష్ణుండు పుట్టేననుచూ!",
+      "meaning": "This verse declares Krishna has already been born and is growing elsewhere. Kamsa becomes shaken and restless on hearing this truth, worried that destiny is beyond his control.",
+      "bedtimeVersion": "This verse says Krishna is already growing safely. Kamsa becomes very worried because destiny is moving beyond him.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-21.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 22,
+      "chapterTitle": "Verse 22",
+      "chapterTitleTelugu": "చల్లమ్ము వారలైనా, ఆ కబురు చక్కగా చెప్పగాను!",
+      "teluguVerse": "చల్లమ్ము వారలైనా, ఆ కబురు చక్కగా చెప్పగాను!\nపుతకికి కబురాయెను, అపుడా పూతకి చేనుదేంచెను.",
+      "meaning": "News spreads and reaches Putana. Hearing it, she sets out toward Krishna. The verse quietly sets up the next event.",
+      "bedtimeVersion": "This verse says the news reaches Putana, and she sets out toward Krishna.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-22.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 23,
+      "chapterTitle": "Verse 23",
+      "chapterTitleTelugu": "శ్రుంగారముగ పూతకి, స్తనములకు విషదార పూసుకొనెను,",
+      "teluguVerse": "శ్రుంగారముగ పూతకి, స్తనములకు విషదార పూసుకొనెను,\nరేపల్లె వాడలందు, కృష్ణుడు తిరుగుచున్న చోటుకు\nచనుదెంచి  విషపుపాలు, ఇవ్వగా సమకట్టి ఇవ్వగాను ,\nబాలురతో బంతులాడ, కృష్ణుని బాలరందరు కొట్టగా!",
+      "meaning": "Putana disguises herself and applies poison, then goes searching for Krishna in Repalle. When she attempts to give poisoned milk, the children around Krishna strike her away, showing protection around him.",
+      "bedtimeVersion": "This verse says Putana disguises herself and tries to harm Krishna, but the children around Krishna drive her away.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-23.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 24,
+      "chapterTitle": "Verse 24",
+      "chapterTitleTelugu": "కావుకావున ఏడ్చుచు, పరుగెత్తి వీధి నడుమను నిలిచెను!",
+      "teluguVerse": "కావుకావున ఏడ్చుచు, పరుగెత్తి వీధి నడుమను నిలిచెను!\nప్రేమ కృష్ణుణ్ణి జూచి పూతకి ప్రియముతో బుజ్జగించి!\nనాయన్న ఊరుకోరా! నా తండ్రి ఇచ్చెదను రారా!\nమూడు గుక్కలు తీర్చగా, పూతకి భూమిపై కోరిగిపడగా!",
+      "meaning": "Putana cries loudly in the street and pretends affection to coax Krishna. Krishna drinks only a little, and Putana falls and dies. The verse shows evil collapsing before divine truth.",
+      "bedtimeVersion": "This verse says Putana cries and pretends love, but her plan fails and she falls down. Evil cannot stand before Krishna.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-24.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 25,
+      "chapterTitle": "Verse 25",
+      "chapterTitleTelugu": "గోపెమ్మ జూచి అపుడు, బంగారుగిన్నెలో బువ్వపెట్టి,",
+      "teluguVerse": "గోపెమ్మ జూచి అపుడు, బంగారుగిన్నెలో బువ్వపెట్టి,\nప్రొద్దున్న ఉగ్గుపోసి, కృష్ణుణ్ణి ఓడిలోను పండవేసే!\nఅంతలో కంస హితుడు, బండి రుపెదురుగా వచ్చి నిలిచే!\nపాదములు పిడుగులవలే, అంతలో దడదడ విసిరే నపుడు!",
+      "meaning": "Life returns in Repalle as the cowherd woman feeds Krishna and puts him to sleep. Suddenly, a follower of Kamsa arrives in the form of a cart demon. Heavy movement signals danger again.",
+      "bedtimeVersion": "This verse shows the cowherd mother feeding Krishna and putting him to sleep. Then danger comes again in a hidden form.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-25.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 26,
+      "chapterTitle": "Verse 26",
+      "chapterTitleTelugu": "వृषభమై వచ్చి నిలువ, ఒక్క , లగువున చంపివేసి నపుడు,",
+      "teluguVerse": "వृषభమై వచ్చి నిలువ, ఒక్క , లగువున చంపివేసి నపుడు,\nచల్లమ్మూ వారలైనా, ఈ కబురు చల్లగా చెప్పి రపుడు!\nరేపల్లె వాడలోను, ఉన్నట్టి గోపికలు గుంపుగూడి,\nమా ఇల్ల కోచ్చునమ్మా, కృష్ణుడు మము రవ్వ చేసునమ్మా!",
+      "meaning": "Krishna destroys the cart demon with ease. News spreads. Gopikas gather and complain that Krishna causes mischief in their homes. The verse shows divine power working quietly amid playful life.",
+      "bedtimeVersion": "This verse says Krishna destroys the demon easily. The gopikas gather and complain lovingly about Krishna’s mischief.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-26.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 27,
+      "chapterTitle": "Verse 27",
+      "chapterTitleTelugu": "తాళలేమమ్మ మేము, నీ సుతుడు తాలిమితో వుండడమ్మా!",
+      "teluguVerse": "తాళలేమమ్మ మేము, నీ సుతుడు తాలిమితో వుండడమ్మా!\nఇకనైన బుద్ది చెప్పి, ఇంటిలో పదిలమ్ము సేయుమమ్మా!\nఅనుచును గట్టిగాను, మనమంత గోపెమ్మా కడకు బోయి,\nచెప్పుదామనుచు  వారు, గోపెమ్మ చెంత కేగగ నప్పుడు!",
+      "meaning": "The gopikas say they cannot tolerate Krishna’s teasing and ask Yashoda to discipline him and keep him at home. They decide to go together to tell her firmly, reflecting affectionate village concern.",
+      "bedtimeVersion": "This verse says the gopikas ask Yashoda to teach Krishna and keep him safe at home. They go together to tell her.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-27.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 28,
+      "chapterTitle": "Verse 28",
+      "chapterTitleTelugu": "గోపాల క్రిష్ణుడప్పుడు, అచటనే పాలు త్రాగుచు నుండెను,",
+      "teluguVerse": "గోపాల క్రిష్ణుడప్పుడు, అచటనే పాలు త్రాగుచు నుండెను,\nఇది ఏమి ఆశ్చర్యమే?, ఓ చెలియ ఇది ఏమి చోద్యమమ్మా?\nకనుపాపలను దీసునే, కృష్ణుడు దొంగతనములు చేసునే!\nఇకనేమి చేసుకోను, మనము బులబాటమున వస్తినమ్మా!",
+      "meaning": "Krishna is seen innocently drinking milk, and the gopikas wonder how he looks so innocent yet steals butter. Feeling helpless, they say they don’t know what to do anymore. The verse captures playful contradiction.",
+      "bedtimeVersion": "This verse shows Krishna looking innocent while drinking milk, and the gopikas wonder how he still steals butter.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-28.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 29,
+      "chapterTitle": "Verse 29",
+      "chapterTitleTelugu": "అమ్మనే నేరుగనమ్మ, నా త్రోవ నేబోవుచుండగాను,",
+      "teluguVerse": "అమ్మనే నేరుగనమ్మ, నా త్రోవ నేబోవుచుండగాను,\nనను రవ్వ చేసిరమ్మా, నే నెంత భయపడి వస్తినమ్మా!\nకొబ్బరి కుడకలనుచు, గోపికలు గొబ్బున పిలువబోవ,\nకొబ్బరి కుడకలనుచు, గోపికలు గుబ్బలను చూపినారు!",
+      "meaning": "The gopikas describe Krishna troubling and teasing them, calling out for coconut sweets and causing playful fear. It reflects affectionate complaints about his mischief.",
+      "bedtimeVersion": "This verse shows the gopikas describing Krishna’s playful teasing and their funny little fears.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-29.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 30,
+      "chapterTitle": "Verse 30",
+      "chapterTitleTelugu": "పౌర్ణమి రోజులందు, జలజాక్షు లందరూ కూడగొని,",
+      "teluguVerse": "పౌర్ణమి రోజులందు, జలజాక్షు లందరూ కూడగొని,\nచీరలటు తీసివేసి, గోపికలు జలకమాడుచు నుండగా!\nతీసివుంచిన చీరలు, కృష్ణుండు వేసే ఆ పొన్న మీద,\nవేసియు వేణునాదం, వుదుచూ వుండే నా మాధవుండు!",
+      "meaning": "On a full-moon night, gopikas bathe in the river. Krishna takes their clothes and puts them on a tree, then plays his flute. The verse shows playful divine leela.",
+      "bedtimeVersion": "This verse describes the full-moon bath, and Krishna hiding their clothes and playing the flute—mischief with charm.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-30.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 31,
+      "chapterTitle": "Verse 31",
+      "chapterTitleTelugu": "జలకమ్ము చాలించిరి, గోపికలు మన చీరలేమాయనే,",
+      "teluguVerse": "జలకమ్ము చాలించిరి, గోపికలు మన చీరలేమాయనే,\nనమ్మరాదే కృష్ణుణ్ణి, ఇకను ఈ చిన గొల్లవాని నెపుడు!\nఎంతపని చేసినమ్మా, ఓ చెలియ ఏమి ఆశ్చర్యమమ్మ!\nవెదుకుచు కొందరుండి, నీళ్ళల్లో మునిగి యుండిరి కొందరు!",
+      "meaning": "The gopikas finish bathing and realize their clothes are missing. They complain Krishna can’t be trusted. Some search everywhere while others dive into the water. The verse captures confusion and playful chaos.",
+      "bedtimeVersion": "This verse shows the gopikas searching for their clothes and feeling confused and embarrassed.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-31.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 32,
+      "chapterTitle": "Verse 32",
+      "chapterTitleTelugu": "అప్పుడు గోపికలలో, ఓ ఇంతి తా జూచి శ్రీకృష్ణుని,",
+      "teluguVerse": "అప్పుడు గోపికలలో, ఓ ఇంతి తా జూచి శ్రీకృష్ణుని,\nరారే ఓ అమ్మలారా! ఈ పొన్న మీదున్న శ్రీకృష్ణుని!\nఇవ్వరా మాచీరలు, ఓ కృష్ణ ఇవ్వరా మా రవికలు,\nదండంబు పెట్టేదమురా, కృష్ణయ్యదయయుంచి దయచేయరా!",
+      "meaning": "A gopika spots Krishna on the tree and calls the others. They respectfully beg him to return their clothes, joining hands and asking for mercy. The verse shows humility beneath the play.",
+      "bedtimeVersion": "This verse shows them spotting Krishna and begging respectfully for their clothes back.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-32.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 33,
+      "chapterTitle": "Verse 33",
+      "chapterTitleTelugu": "అందరూ ఒక చేతిలో, దండమ్ము పెట్టగా చూచి తాను,",
+      "teluguVerse": "అందరూ ఒక చేతిలో, దండమ్ము పెట్టగా చూచి తాను,\nపొందుగా మీరందరు, దండంబు రెండు చేతుల పెట్టరె!\nఎంత పని వచ్చే ననుచు, గోపికలు మానభంగము నొందిరి,\nవసుదేవ తనయునకును, దండంబు రెండు చేతుల పెట్టిరి!",
+      "meaning": "Krishna asks them to bow properly with both hands joined. Though embarrassed, they obey and offer respectful pranams. The verse shows playful mischief leading to humility and devotion.",
+      "bedtimeVersion": "This verse shows Krishna asking them to bow properly with both hands, and they obey with respect.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-33.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    },
+    {
+      "chapterNumber": 34,
+      "chapterTitle": "Verse 34",
+      "chapterTitleTelugu": "పొందుగా వలువలన్ని, కృష్ణుండు పేరు పేరున ఇచ్చెను,",
+      "teluguVerse": "పొందుగా వలువలన్ని, కృష్ణుండు పేరు పేరున ఇచ్చెను,\nనాయత్త తిట్టునేమో, యనుచు నోకరోకరితో వగచి రపుడు!\nమా యాడుబిడ్డ యిపుడు, కొట్టునో నా బావ దండించునో,\nనా మగడు బ్రతుకనీడు, ఓయమ్మ నేనేమి చేతునమ్మా!",
+      "meaning": "Krishna kindly returns the clothes, calling each gopika by name. The gopikas whisper and worry about what people at home might say, ending in lighthearted humor and affectionate village life.",
+      "bedtimeVersion": "In the end, Krishna smiles and gives back the clothes, calling each gopika by name. The gopikas whisper and giggle, worrying what people at home will say. But the night ends with playful smiles and Krishna’s gentle kindness.",
+      "illustrationPath": "assets/images/illustrations/chinni-krishnuni-leelalu/Verse-34.webp",
+      "illustrationPrompt": "A soft Indian watercolor illustration representing this verse."
+    }
+  ]
+}
