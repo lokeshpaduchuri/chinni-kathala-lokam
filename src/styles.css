@@ -76,10 +76,14 @@ app-book-card:first-child { grid-column: 1 / -1; }
 .flourish { color: var(--gold-light); margin: 12px; font-size: 10px; letter-spacing: .4em; }
 .cover-bottom { margin-top: auto; font: 500 9px 'Noto Serif Telugu'; opacity: .7; }
 .book-cover.compact { width: 100%; }
-.book-cover.compact .cover-border { padding: 26px 14px 18px; }
+.book-cover.compact .cover-border { padding: 22px 14px 16px; }
 .book-cover.compact .peacock { font-size: 36px; }
-.book-cover.compact h2 { font-size: 26px; }
-.book-cover.compact h3 { font-size: 17px; }
+.book-cover.compact .cover-kicker { margin: 12px 0 8px; font-size: 8px; line-height: 1.4; }
+.book-cover.compact h2 { font-size: 24px; line-height: 1.28; }
+.book-cover.compact .flourish { margin: 8px; font-size: 8px; }
+.book-cover.compact h3 { margin: 5px 0; font-size: 16px; line-height: 1.15; }
+.book-cover.compact p { max-width: 100%; font-size: 9px; line-height: 1.4; overflow-wrap: anywhere; }
+.book-cover.compact .cover-bottom { margin-top: auto; font-size: 8px; line-height: 1.35; }
 .coming-soon .book-cover { filter: saturate(.65); }
 .coming-soon .book-cover.compact h2 { font-size: 18px; }
 .coming-soon .book-cover .cover-kicker { margin: 9px 0; }
@@ -149,10 +153,14 @@ app-book-card:first-child { grid-column: 1 / -1; }
 .print-intro h2 { color: var(--peacock); font: 700 34px 'Noto Serif Telugu'; }
 .print-intro p { font: 400 18px/2.1 'Noto Serif Telugu'; }
 .not-found { min-height: 60vh; display: grid; place-content: center; text-align: center; color: var(--peacock); }
-.site-footer { text-align: center; padding: 55px 24px; color: #e9d8aa; background: var(--peacock-dark); }
-.site-footer span { color: var(--gold-light); font-size: 25px; }
-.site-footer p { margin: 8px 0 0; font: 600 16px 'Noto Serif Telugu'; }
-.site-footer small { opacity: .7; font: italic 15px 'Cormorant Garamond'; }
+.app-footer { width: 100%; max-width: 100%; padding: 3rem 1rem 2rem; text-align: center; color: var(--peacock); background: var(--paper); }
+.footer-divider { width: 72px; height: 1px; margin: 0 auto 1.15rem; display: flex; align-items: center; justify-content: center; background: rgba(194,139,44,.45); }
+.footer-divider span { padding: 0 9px; color: var(--pink); background: var(--paper); font-size: 11px; line-height: 1; }
+.app-footer p { margin: .25rem 0; font: 500 .95rem/1.55 'Libre Baskerville'; letter-spacing: .02em; }
+.app-footer .footer-telugu { color: var(--gold); font: 500 1rem/1.65 'Noto Serif Telugu'; }
+body:has(app-mobile-reader) .app-footer { padding-top: 1.5rem; padding-bottom: calc(7rem + env(safe-area-inset-bottom)); }
+body:has(app-mobile-reader) .app-footer p { font-size: .82rem; }
+body:has(app-mobile-reader) .app-footer .footer-telugu { font-size: .9rem; }
 
 button, .reader-nav-link { min-height: 44px; touch-action: manipulation; }
 button:focus-visible, .reader-nav-link:focus-visible, .reader-tools button:focus-visible { outline: 3px solid var(--gold-light); outline-offset: 3px; }
@@ -185,6 +193,7 @@ button:focus-visible, .reader-nav-link:focus-visible, .reader-tools button:focus
   --reader-muted: #d8c49a;
   --reader-accent: #d29a35;
 }
+.mobile-reader-topbar { display: none; }
 .reader-header { max-width: 1080px; margin: 0 auto 24px; text-align: center; }
 .reader-header > div:first-child { display: flex; justify-content: space-between; gap: 16px; color: var(--reader-accent); font: 700 10px 'Libre Baskerville'; letter-spacing: .12em; text-transform: uppercase; }
 .reader-header > div:first-child small { font: inherit; }
@@ -239,14 +248,20 @@ button:focus-visible, .reader-nav-link:focus-visible, .reader-tools button:focus
 .chapter-sheet-list button b { overflow: hidden; font: 500 14px/1.5 'Noto Serif Telugu'; text-overflow: ellipsis; white-space: nowrap; }
 
 @media (max-width: 767px) {
-  body:has(app-mobile-reader) .site-header, body:has(app-mobile-reader) .site-footer { display: none; }
+  body:has(app-mobile-reader) .site-header { display: none; }
   .desktop-book-link { display: none; }
   .mobile-book-link { display: inline-flex; }
   .book-card-actions { justify-content: center; }
   .tonight-link { order: -1; width: min(100%, 280px); justify-content: center; }
   .action-row .tonight-button { width: min(100%, 280px); }
 
-  .reader-page { padding: 22px 14px calc(6rem + env(safe-area-inset-bottom)); }
+  .reader-page { padding: 0 14px calc(6rem + env(safe-area-inset-bottom)); }
+  .mobile-reader-topbar { position: sticky; top: 0; z-index: 80; width: 100vw; margin: 0 0 1rem calc(50% - 50vw); padding: calc(.65rem + env(safe-area-inset-top)) 14px .65rem; display: flex; align-items: center; gap: .65rem; color: var(--reader-text); background: color-mix(in srgb, var(--reader-bg) 94%, transparent); border-bottom: 1px solid color-mix(in srgb, var(--reader-accent) 32%, transparent); box-shadow: 0 6px 20px color-mix(in srgb, var(--reader-text) 8%, transparent); backdrop-filter: blur(12px); }
+  .topbar-icon-btn { min-width: 44px; min-height: 44px; padding: 0 12px; display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; color: inherit; background: color-mix(in srgb, var(--reader-surface) 72%, transparent); border: 1px solid color-mix(in srgb, var(--reader-accent) 38%, transparent); border-radius: 999px; cursor: pointer; font: 700 .82rem 'Noto Serif Telugu'; white-space: nowrap; }
+  .topbar-home { min-width: 72px; }
+  .topbar-title { min-width: 0; flex: 1; display: flex; flex-direction: column; color: inherit; line-height: 1.25; }
+  .topbar-book-title { overflow: hidden; font: 700 .9rem 'Noto Serif Telugu'; text-overflow: ellipsis; white-space: nowrap; }
+  .topbar-progress { color: var(--reader-muted); font: 600 .7rem 'Noto Serif Telugu'; }
   .reader-header { margin-bottom: 1rem; }
   .reader-header > div:first-child { font-size: 9px; }
   .reader-header > div:first-child small { letter-spacing: .06em; }
@@ -382,8 +397,12 @@ button:focus-visible, .reader-nav-link:focus-visible, .reader-tools button:focus
   .collection-section { padding: 44px 12px 54px; }
   .book-card, .book-card.coming-soon, .book-card:not(:first-child) { padding: 16px; gap: 18px; }
   .book-card .book-cover, .book-card:not(:first-child) .book-cover, .coming-soon .book-cover { width: min(205px, 72vw); max-height: 280px; }
-  .book-cover.compact .cover-border { padding: 20px 10px 14px; }
-  .book-cover.compact h2 { font-size: 21px; }
+  .book-cover.compact .cover-border { padding: 18px 10px 12px; }
+  .book-cover.compact .peacock { font-size: 30px; }
+  .book-cover.compact .cover-kicker { margin: 9px 0 6px; font-size: 7px; }
+  .book-cover.compact h2 { font-size: 20px; }
+  .book-cover.compact h3 { font-size: 14px; }
+  .book-cover.compact p, .book-cover.compact .cover-bottom { font-size: 7px; }
   .book-card-copy h3 { font-size: 1.45rem; }
   .book-card-copy p { font-size: 1rem; line-height: 1.7; }
   .chapter-page { padding-inline: 14px; }
@@ -392,7 +411,7 @@ button:focus-visible, .reader-nav-link:focus-visible, .reader-tools button:focus
 @page { size: Letter portrait; margin: .45in; }
 @media print {
   body { background: white; color: #222; }
-  .no-print, .site-header, .site-footer { display: none !important; }
+  .no-print, .site-header, .app-footer { display: none !important; }
   .print-book { max-width: none; margin: 0; }
   .print-title, .print-intro, .print-book .chapter-page, .print-book .blessing { width: 100%; min-height: 9.5in; margin: 0; padding: .45in; box-shadow: none; border: 0; break-after: page; page-break-after: always; }
   .print-book .chapter-page { display: flex; flex-direction: column; justify-content: center; }
