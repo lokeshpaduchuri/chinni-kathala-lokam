@@ -193,6 +193,7 @@ button:focus-visible, .reader-nav-link:focus-visible, .reader-tools button:focus
   --reader-muted: #d8c49a;
   --reader-accent: #d29a35;
 }
+.mobile-reader-topbar { display: none; }
 .reader-header { max-width: 1080px; margin: 0 auto 24px; text-align: center; }
 .reader-header > div:first-child { display: flex; justify-content: space-between; gap: 16px; color: var(--reader-accent); font: 700 10px 'Libre Baskerville'; letter-spacing: .12em; text-transform: uppercase; }
 .reader-header > div:first-child small { font: inherit; }
@@ -254,7 +255,13 @@ button:focus-visible, .reader-nav-link:focus-visible, .reader-tools button:focus
   .tonight-link { order: -1; width: min(100%, 280px); justify-content: center; }
   .action-row .tonight-button { width: min(100%, 280px); }
 
-  .reader-page { padding: 22px 14px calc(6rem + env(safe-area-inset-bottom)); }
+  .reader-page { padding: 0 14px calc(6rem + env(safe-area-inset-bottom)); }
+  .mobile-reader-topbar { position: sticky; top: 0; z-index: 80; width: 100vw; margin: 0 0 1rem calc(50% - 50vw); padding: calc(.65rem + env(safe-area-inset-top)) 14px .65rem; display: flex; align-items: center; gap: .65rem; color: var(--reader-text); background: color-mix(in srgb, var(--reader-bg) 94%, transparent); border-bottom: 1px solid color-mix(in srgb, var(--reader-accent) 32%, transparent); box-shadow: 0 6px 20px color-mix(in srgb, var(--reader-text) 8%, transparent); backdrop-filter: blur(12px); }
+  .topbar-icon-btn { min-width: 44px; min-height: 44px; padding: 0 12px; display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; color: inherit; background: color-mix(in srgb, var(--reader-surface) 72%, transparent); border: 1px solid color-mix(in srgb, var(--reader-accent) 38%, transparent); border-radius: 999px; cursor: pointer; font: 700 .82rem 'Noto Serif Telugu'; white-space: nowrap; }
+  .topbar-home { min-width: 72px; }
+  .topbar-title { min-width: 0; flex: 1; display: flex; flex-direction: column; color: inherit; line-height: 1.25; }
+  .topbar-book-title { overflow: hidden; font: 700 .9rem 'Noto Serif Telugu'; text-overflow: ellipsis; white-space: nowrap; }
+  .topbar-progress { color: var(--reader-muted); font: 600 .7rem 'Noto Serif Telugu'; }
   .reader-header { margin-bottom: 1rem; }
   .reader-header > div:first-child { font-size: 9px; }
   .reader-header > div:first-child small { letter-spacing: .06em; }

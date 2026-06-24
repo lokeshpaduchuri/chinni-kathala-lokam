@@ -16,6 +16,15 @@ type ReaderContentMode = 'meaning' | 'bedtime' | 'both';
   template: `
     @if (vm$ | async; as vm) { @if (vm.book && vm.chapter) {
       <article class="reader-page" [class.reader-theme-night]="theme === 'night'" [class.reader-font-small]="fontSize === 'small'" [class.reader-font-medium]="fontSize === 'medium'" [class.reader-font-large]="fontSize === 'large'" (touchstart)="onTouchStart($event)" (touchend)="onTouchEnd($event, vm.book, vm.chapter)">
+        <header class="mobile-reader-topbar no-print">
+          <a routerLink="/" class="topbar-icon-btn topbar-home" aria-label="Back to library">← లోకం</a>
+          <a [routerLink]="['/book', vm.book.id]" class="topbar-title" aria-label="Open book details">
+            <span class="topbar-book-title">{{ vm.book.titleTelugu }}</span>
+            <span class="topbar-progress">అధ్యాయం {{ vm.chapter.chapterNumber }} / {{ vm.book.chapters.length }}</span>
+          </a>
+          <button type="button" class="topbar-icon-btn" (click)="openChapters()" aria-label="Open chapters">☰</button>
+        </header>
+
         <header class="reader-header">
           <div><span>అధ్యాయం {{ vm.chapter.chapterNumber }}</span><small>CHAPTER {{ vm.chapter.chapterNumber }} OF {{ vm.book.chapters.length }}</small></div>
           <div class="reader-progress" aria-hidden="true"><span [style.width.%]="vm.chapter.chapterNumber / vm.book.chapters.length * 100"></span></div>
